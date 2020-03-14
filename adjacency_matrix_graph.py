@@ -1,5 +1,5 @@
 import numpy as np
-from graph import *
+from graph import Graph
 class AdjacencyMatrixGraph(Graph):
 	def __init__(self, num_vertices, directed=False):
 		"""
